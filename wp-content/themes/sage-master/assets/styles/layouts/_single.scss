@@ -1,0 +1,67 @@
+.single {
+  .entry-meta {
+    background-color: $lighter-grey;
+    padding: 17px;
+    margin-bottom: 30px;
+    .author {
+      color: $light-grey;
+      a {
+        color: $light-grey;
+        text-transform: capitalize;
+      }
+    }
+  }
+  .comment, .comment-respond{
+    img {
+      width: 30px;
+      margin-right: 15px;
+    }
+    .says, .logged-in-as, .comment-form-comment label{display: none;}
+  }
+
+  .comment-respond{
+  	margin-bottom: 100px;
+  }
+  .comment-reply-title{
+  	font-size: 20px;
+  }
+  .comments{
+  	textarea, input{
+  		border-radius: 0 !important;
+  		box-shadow: none !important;
+  		&:focus{
+  			border: 1px solid $green;
+  		}
+  	}
+  }
+  .comment-body{
+  	margin-bottom: 20px;
+    border: 1px solid $lighter-grey;
+    padding: 20px;
+  }
+  .comment-author,.comment-metadata{
+  	display: inline-block;
+  }
+  .comment-metadata{
+  	padding-left: 15px;
+  	a{
+  		color: $light-grey;
+  	}
+  }
+  .comment-edit-link, .comment-reply-link{
+  	color: #FFF !important;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 2px 15px;
+    background-color: #23a49a;
+    color: #FFF;
+    border-radius: 10px;
+    vertical-align: middle;
+  }
+  .comment-edit-link{
+  	margin-left: 15px;
+  }
+  .comment-content{
+	margin: 15px 0;
+  }
+}

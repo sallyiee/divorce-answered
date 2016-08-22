@@ -1,0 +1,30 @@
+.type-post {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.category-header-container {
+  background: url('/wp-content/themes/sage-master/assets/images/page-title-category.jpg') no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+  margin-bottom: 50px;
+}
+
+.category-header-content{
+	background-color: rgba(255,255,255,1);
+	padding: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	h1{
+		font-size: 35px;
+		color: $grey;
+		margin-bottom: 15px;
+	}
+	p{
+		font-size: 14px;
+		color: $light-grey;
+		font-weight: 100;
+	}
+}

@@ -1,0 +1,35 @@
+.wdform_page{
+     background: none !important;
+}
+.wdform-label-section{
+     display: none !important;
+}
+.wdform-element-section{
+     margin-bottom: 10px;
+     input[type="text"], textarea{
+          padding: 10px !important;
+          background: none !important;
+          border: 1px solid #484848;
+          width: 100% !important;
+     }
+}
+
+.wdform-field, .wdform-element-section, .wdform-page-and-images{
+	width: 100% !important;
+}
+.wdform-page-and-images{
+     padding-left: 0 !important;
+}
+.form13{
+     padding: 0 !important;
+     margin-left: -10px !important;
+     border: none !important;
+}
+.button-submit{
+     padding: 10px 20px;
+     font-size: 14px;
+     border-radius: 20px;
+     color: #FFF;
+     background-color:#23a49a;
+     border: none;
+}

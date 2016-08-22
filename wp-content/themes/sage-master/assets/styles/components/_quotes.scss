@@ -1,0 +1,125 @@
+@import "../common/variables";
+$spacing: 50px;
+.quotes-homepage {
+  text-align: center;
+  padding: $spacing 0;
+  background-color: #fafafa;
+  img {
+    margin-bottom: 20px;
+  }
+  p {
+    color: $light-grey;
+    font-size: 26px;
+  }
+}
+
+.tools-homepage {
+  padding: $spacing 0;
+  .title {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    h1 {
+      color: $grey;
+      font-size: 50px;
+    }
+    p {
+      color: $light-grey;
+      font-size: 18px;
+    }
+  }
+  .tools {
+    margin-top: $spacing;
+    &> div {
+      text-align: center;
+      height: 300px;
+      @media (min-width: 544px) {
+        &:before {
+          content: '';
+          background: url('/wp-content/themes/sage-master/assets/images/arrow-tools.png') no-repeat;
+          position: absolute;
+          top: 15%;
+          width: 27px;
+          height: 100%;
+          right: -10px;
+        }
+        &:last-of-type {
+          &:before {
+            content: '';
+            background: none;
+          }
+        }
+      }
+    }
+    ul {
+      margin-top: 25px;
+      .title {
+        color: $grey;
+        font-size: 20px;
+      }
+      li {
+        line-height: 2;
+        a {
+          color: $light-grey;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.service-type{
+	height: 425px;
+  text-align: center;
+  position: relative;
+  h1{
+    font-size: 18px;
+    color: #FFF;
+  }
+}
+
+.service-type-link{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.article-homepage{
+  padding: $spacing 0;
+
+    h1 {
+      color: $grey;
+      font-size: 50px;
+      text-align: center;
+    }
+    p {
+      color: $light-grey;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: center;
+    }
+}
+.article-homepage-description{
+        margin-bottom: $spacing;
+
+
+}
+
+.ms-slide-info.ms-dir-h h1, .ms-slide-info.ms-dir-h p{
+  text-align: center;
+}
+.ms-slide-info.ms-dir-h h1{
+  font-size: 20px;
+}
+
+.ms-slide-info.ms-dir-h p{
+  font-size: 14px;
+  line-height: 1.8;
+}
+.article-homepage-content{
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+}
+

@@ -1,0 +1,62 @@
+@media (max-width: 544px) { 
+	//Header - navigation
+	.logo{
+		width: 80px;
+		img{
+			width: 100%;
+		}
+	}
+	.nav>li>a{
+		padding: 10px 5px;
+	}
+
+	.ms-nav-next,
+	.ms-nav-prev{
+		display: none !important;
+	}
+
+	//Footer
+	.main-footer{
+		padding-bottom: 100px;
+	}
+	.nav-siteinfo li{
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+	.follow-us{
+		text-align: left;
+	}
+	//Homepage
+	.quotes-homepage,
+	.tools-homepage,
+	.article-homepage{
+		padding: 30px 15px;
+		box-sizing: border-box;
+	}
+	.services .service-type{
+		height: 150px;
+		.content{
+			height: 100px;
+			img{
+				width: 30px;
+			}
+			h1{
+				font-size: 14px;
+			}
+		}
+	}
+	.category-header{
+		padding: 0 15px;
+	}
+
+	//Blog Page
+	.pgntn-page-pagination {
+		margin-bottom: 30px;
+	}
+
+	//About Page
+	.about-header{
+		padding: 20px;
+		box-sizing: border-box;
+	}
+}

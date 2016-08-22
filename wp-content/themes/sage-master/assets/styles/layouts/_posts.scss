@@ -1,0 +1,55 @@
+@import "../common/variables";
+.post,
+.single,
+.comments,
+.comment-respond {
+  .entry-title, h2, .reply-title {
+    line-height: 1;
+    margin-bottom: 20px;
+    font-size: 20px;
+    a {
+      font-size: 20px;
+      color: $grey;
+      line-height: 1;
+      &:hover {
+        text-underline: none;
+      }
+    }
+  }
+  .updated,
+  .post-comments,
+  .entry-summary {
+    font-size: 14px;
+    color: $light-grey;
+    margin-bottom: 20px;
+    a {
+      color: $light-grey;
+      text-decoration: underline;
+    }
+  }
+  .entry-content {
+    color: $light-grey;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+  }
+  .entry-date {
+    margin-bottom: 20px;
+  }
+  .entry-summary {
+    line-height: 1.8;
+  }
+  .post-comments {
+    font-size: 12px;
+  }
+  .entry-tag {
+    margin-bottom: 100px;
+  }
+  .post-date,
+  .post-comments {
+    display: inline-block;
+  }
+  .post-date {
+    padding-right: 10px;
+  }
+}

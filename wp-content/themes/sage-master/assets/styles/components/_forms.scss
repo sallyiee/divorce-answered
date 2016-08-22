@@ -1,0 +1,34 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+
+.search-form .search-field {
+  @extend .form-control;
+}
+
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-default;
+}
+
+.tagcloud,
+.entry-tag {
+  a {
+    background-color: $green;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px !important;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+//Sharing

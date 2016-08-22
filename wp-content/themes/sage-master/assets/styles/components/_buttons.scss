@@ -1,0 +1,21 @@
+.button, .btn-primary{
+	padding: 10px 20px;
+	font-size: 18px;
+	&:hover, &:focus, &.active{
+		outline: 0;
+		background-color: $green;
+		    border-color: #176739;
+	}
+}
+.btn-primary{
+	font-size: 14px;
+	border: none;
+
+}
+
+.button-green, .comment-form input[type=submit]{
+	background-color: $green;
+	border-radius: 20px;
+	color: #FFF;
+}
+

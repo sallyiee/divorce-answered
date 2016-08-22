@@ -1,0 +1,72 @@
+.category,
+.single,
+.tag {
+  .search-field {
+    width: 100% !important;
+    border-radius: 0 !important;
+    background-color: #f7f7f7 !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .widget_categories,
+  .widget_search{
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 30px;
+  }
+  .widget_search {
+    padding: 10px 0 10px 10px;
+  }
+  .search-form {
+    label {
+      width: 84%;
+      margin-bottom: 0;
+    }
+    .search-submit {
+      border: none;
+      background: #FFF url('/wp-content/themes/sage-master/assets/images/search.png') no-repeat center center;
+      color: transparent;
+      width: 15%;
+      &:hover,
+      &:focus {
+        background-color: #FFF !important;
+        color: transparent;
+        outline: none;
+      }
+    }
+  }
+  .widget_categories,
+  .widget_tag_cloud {
+    h3 {
+      font-size: 20px;
+    }
+    li {
+      color: $green;
+      line-height: 2.5;
+      border-bottom: 1px solid #f2f2f2;
+      a {
+        color: $light-grey;
+      }
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+  }
+  .widget_tag_cloud {
+    h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+}
+
+.category-header {
+  display: none;
+}
+
+.category{
+	.category-header{
+		display: block;
+	}
+}
